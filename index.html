@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scripture Links – Bible study where the sources speak</title>
+<meta name="description" content="Scripture Links is a free Bible study app: Old and New Testament connections, the Church Fathers, answers with sources, archaeology and memory verses. No account, no ads, works offline.">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<meta property="og:title" content="Scripture Links">
+<meta property="og:description" content="A free Bible study app where the sources speak for themselves.">
+<meta property="og:image" content="img/feature.jpg">
+<style>
+:root{
+  --bg:#fffdf8; --card:#ffffff; --text:#1f2a37; --muted:#6b7280; --accent:#e08a00; --gold:#d97706;
+  --line:#eef0f3; --link:#2563eb; --tag:#fef3c7; --tagtext:#b45309;
+  --dawn:linear-gradient(135deg,#fff4d6 0%,#ffe3b8 55%,#ddeeff 100%);
+  --shadow:0 6px 24px rgba(180,83,9,.10);
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#0f172a;--card:#1b2538;--text:#f1f5f9;--muted:#94a3b8;--accent:#fbbf24;--gold:#fbbf24;
+    --line:#2a364d;--link:#93c5fd;--tag:#3b2f0b;--tagtext:#fcd34d;
+    --dawn:linear-gradient(135deg,#1b2538 0%,#2a2a3a 55%,#16293f 100%);--shadow:0 6px 24px rgba(0,0,0,.35)}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);line-height:1.6;
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--link)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif;line-height:1.2;margin:0}
+h2{font-size:1.9rem;margin-bottom:.4rem}
+.lead{font-size:1.15rem;color:var(--muted);max-width:640px}
+.muted{color:var(--muted)}
+header.top{display:flex;align-items:center;justify-content:space-between;padding:16px 0}
+.brand{display:flex;align-items:center;gap:10px;font-family:Georgia,serif;font-weight:700;font-size:1.15rem;color:var(--text);text-decoration:none}
+.brand img{width:36px;height:36px;border-radius:9px}
+nav.lang a{margin-left:14px;text-decoration:none;font-size:.95rem}
+.hero{background:var(--dawn);border-radius:0 0 28px 28px;padding:40px 0 56px}
+.hero .grid{display:grid;grid-template-columns:1.1fr .9fr;gap:32px;align-items:center}
+.hero h1{font-size:clamp(2.2rem,5vw,3.4rem);margin:.2rem 0 .6rem}
+.hero .icon{width:84px;height:84px;border-radius:20px;box-shadow:var(--shadow)}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin:22px 0 6px}
+.btn{display:inline-block;padding:12px 20px;border-radius:12px;font-weight:600;text-decoration:none;border:2px solid var(--accent)}
+.btn.primary{background:var(--accent);color:#1f2a37}
+.btn.ghost{color:var(--text);background:transparent}
+.note{font-size:.92rem;color:var(--muted);margin-top:8px}
+.phone{justify-self:center;max-width:270px;border-radius:26px;box-shadow:var(--shadow);border:6px solid #1f2a37;background:#1f2a37}
+.phone img{display:block;width:100%;height:auto;border-radius:19px}
+section{padding:48px 0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:var(--shadow)}
+.card h3{font-size:1.15rem;margin-bottom:6px}
+.card p{margin:0;color:var(--muted)}
+.tag{display:inline-block;background:var(--tag);color:var(--tagtext);border-radius:999px;padding:2px 10px;font-size:.8rem;font-weight:600;margin-bottom:8px}
+.shots{display:flex;gap:16px;overflow-x:auto;padding:8px 2px 18px;scroll-snap-type:x mandatory;
+  scrollbar-width:thin;scrollbar-color:var(--accent) var(--line)}
+.shot{flex:0 0 230px;scroll-snap-align:start;margin:0}
+.shot img{width:100%;height:auto;display:block;border-radius:18px;border:1px solid var(--line);box-shadow:var(--shadow)}
+.shot figcaption{font-size:.9rem;color:var(--muted);margin-top:8px;text-align:center}
+.honest{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--accent);border-radius:12px;padding:20px 22px;max-width:780px}
+ul.checks{padding-left:0;list-style:none;margin:14px 0 0}
+ul.checks li{padding-left:28px;position:relative;margin:8px 0}
+ul.checks li::before{content:"✓";position:absolute;left:0;color:var(--accent);font-weight:700}
+footer{border-top:1px solid var(--line);padding:28px 0 44px;color:var(--muted);font-size:.95rem}
+footer a{margin-right:16px}
+.de{display:none}
+body:has(#de:target) .en{display:none}
+body:has(#de:target) .de{display:block}
+@media (max-width:760px){
+  .hero .grid{grid-template-columns:1fr}
+  .phone{max-width:220px}
+  h2{font-size:1.6rem}
+}
+</style>
+</head>
+<body>
+
+<!-- ========== ENGLISH ========== -->
+<div class="en" id="en" lang="en">
+  <div class="hero">
+    <div class="wrap">
+      <header class="top">
+        <a class="brand" href="#en"><img src="img/icon.png" alt="">Scripture Links</a>
+        <nav class="lang"><a href="#en">English</a><a href="#de">Deutsch</a></nav>
+      </header>
+      <div class="grid">
+        <div>
+          <img class="icon" src="img/icon.png" alt="Scripture Links app icon">
+          <h1>Bible study where the sources speak for themselves</h1>
+          <p class="lead">See how the Old and New Testament fit together, read the Church Fathers on the verse in front of you, and get answers to common questions about the faith, every point shown with its verses and sources.</p>
+          <div class="btns">
+            <a class="btn primary" href="mailto:zemiketube@gmail.com?subject=Scripture%20Links%20tester">Become a tester</a>
+            <a class="btn ghost" href="privacy.html">Privacy &amp; terms</a>
+          </div>
+          <p class="note">Coming to Google Play for Android. The app is in testing now; write to us if you would like to help test it. Free, no account, no ads.</p>
+        </div>
+        <div class="phone"><img src="img/screenshot-1-home.jpg" width="540" height="1059" alt="Home screen of Scripture Links"></div>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <h2>What you can do</h2>
+      <p class="lead">One app for reading, research and memorising Scripture, for every tradition.</p>
+      <div class="cards">
+        <div class="card"><span class="tag">Old ↔ New</span><h3>Connections</h3><p>Prophecy and fulfilment, quotations and types, on every verse and as an interactive map.</p></div>
+        <div class="card"><span class="tag">Sourced</span><h3>Questions &amp; answers</h3><p>Common questions about the faith, answered only with Bible verses, the Creed, the Church Fathers and the catechisms of the Orthodox, Catholic and Protestant churches, side by side. Every quote links to its source and an archived copy.</p></div>
+        <div class="card"><span class="tag">Evidence</span><h3>Archaeology &amp; history</h3><p>Finds such as the Tel Dan Stele, the Pilate Stone and the Isaiah Scroll, and the ancient historians Tacitus, Josephus and Pliny, with photos and sources.</p></div>
+        <div class="card"><span class="tag">Fathers</span><h3>Church Fathers</h3><p>Their comments on the verse you are reading, and the Hebrew and Greek words behind the King James text, as optional downloads.</p></div>
+        <div class="card"><span class="tag">Memory</span><h3>Memory verses</h3><p>Spaced repetition, hints, a typing check and a daily reminder.</p></div>
+        <div class="card"><span class="tag">Your church</span><h3>Your tradition</h3><p>General Christianity, Orthodox Tewahedo, Eastern Orthodox, Catholic or Protestant, with the matching canon of books and the Ethiopian church calendar for the Tewahedo tradition.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>A look inside</h2>
+      <div class="shots">
+        <figure class="shot"><img loading="lazy" src="img/screenshot-1-home.jpg" width="540" height="1059" alt="Home screen"><figcaption>Home</figcaption></figure>
+        <figure class="shot"><img loading="lazy" src="img/screenshot-4-verse.jpg" width="540" height="1059" alt="A verse with its connections"><figcaption>A verse and its connections</figcaption></figure>
+        <figure class="shot"><img loading="lazy" src="img/screenshot-5-map.jpg" width="540" height="1059" alt="Connection map"><figcaption>Connection map</figcaption></figure>
+        <figure class="shot"><img loading="lazy" src="img/screenshot-2-answer.jpg" width="540" height="1059" alt="An answer with its sources"><figcaption>An answer with its sources</figcaption></figure>
+        <figure class="shot"><img loading="lazy" src="img/screenshot-3-evidence.jpg" width="540" height="1059" alt="Evidence and archaeology"><figcaption>Evidence &amp; archaeology</figcaption></figure>
+        <figure class="shot"><img loading="lazy" src="img/screenshot-6-memory.jpg" width="540" height="1059" alt="Memory verses"><figcaption>Memory verses</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Private by design</h2>
+      <ul class="checks">
+        <li>No account, no advertising, no analytics, no tracking.</li>
+        <li>Everything you create stays on your phone, and the app works offline.</li>
+        <li>The internet is used only when you ask: to download an optional pack or to open a source.</li>
+      </ul>
+      <p style="margin-top:18px"><a href="privacy.html">Read the full privacy policy and terms</a></p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="honest">
+        <h3>Honest about what it is</h3>
+        <p style="margin:.5rem 0 0">The answers were compiled with care, but they have not yet been reviewed by clergy of any church and are not the official teaching of any church. Each one says so, and each point shows the verses and sources it rests on. Please read them for yourself and ask your priest or pastor.</p>
+        <p class="muted" style="margin:.8rem 0 0">Bibles included: King James Version, World English Bible and Elberfelder 1905. The interface is in English, German and Tigrinya.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <a href="privacy.html">Privacy &amp; terms</a>
+      <a href="mailto:zemiketube@gmail.com">Contact</a>
+      <p>Scripture Links is a free, non-commercial project.</p>
+    </div>
+  </footer>
+</div>
+
+<!-- ========== DEUTSCH ========== -->
+<div class="de" id="de" lang="de">
+  <div class="hero">
+    <div class="wrap">
+      <header class="top">
+        <a class="brand" href="#de"><img src="img/icon.png" alt="">Scripture Links</a>
+        <nav class="lang"><a href="#en">English</a><a href="#de">Deutsch</a></nav>
+      </header>
+      <div class="grid">
+        <div>
+          <img class="icon" src="img/icon.png" alt="Symbol der App Scripture Links">
+          <h1>Bibelstudium, bei dem die Quellen selbst sprechen</h1>
+          <p class="lead">Sieh, wie Altes und Neues Testament zusammenhängen, lies die Kirchenväter zum Vers vor dir und finde Antworten auf häufige Glaubensfragen, jeder Punkt mit seinen Versen und Quellen.</p>
+          <div class="btns">
+            <a class="btn primary" href="mailto:zemiketube@gmail.com?subject=Scripture%20Links%20Tester">Tester werden</a>
+            <a class="btn ghost" href="privacy.html#de">Datenschutz &amp; Bedingungen</a>
+          </div>
+          <p class="note">Bald bei Google Play für Android. Die App wird gerade getestet; schreib uns, wenn du mittesten möchtest. Kostenlos, ohne Konto, ohne Werbung.</p>
+        </div>
+        <div class="phone"><img src="img/screenshot-1-home.jpg" width="540" height="1059" alt="Startseite von Scripture Links"></div>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <h2>Was du damit tun kannst</h2>
+      <p class="lead">Eine App zum Lesen, Forschen und Auswendiglernen der Schrift, für jede Tradition.</p>
+      <div class="cards">
+        <div class="card"><span class="tag">AT ↔ NT</span><h3>Verbindungen</h3><p>Verheißung und Erfüllung, Zitate und Vorbilder, bei jedem Vers und als interaktive Karte.</p></div>
+        <div class="card"><span class="tag">Mit Quellen</span><h3>Fragen &amp; Antworten</h3><p>Häufige Fragen zum Glauben, beantwortet nur mit Bibelversen, dem Glaubensbekenntnis, den Kirchenvätern und den Katechismen der orthodoxen, katholischen und evangelischen Kirchen, nebeneinander. Jedes Zitat verlinkt seine Quelle und eine archivierte Kopie.</p></div>
+        <div class="card"><span class="tag">Belege</span><h3>Archäologie &amp; Geschichte</h3><p>Funde wie die Tel-Dan-Stele, der Pilatus-Stein und die Jesaja-Rolle sowie die antiken Geschichtsschreiber Tacitus, Josephus und Plinius, mit Fotos und Quellen.</p></div>
+        <div class="card"><span class="tag">Väter</span><h3>Kirchenväter</h3><p>Ihre Auslegung zum Vers, den du gerade liest, und die hebräischen und griechischen Wörter hinter dem King-James-Text, als optionale Downloads.</p></div>
+        <div class="card"><span class="tag">Merken</span><h3>Merkverse</h3><p>Verteilte Wiederholung, Hilfen, Tippkontrolle und tägliche Erinnerung.</p></div>
+        <div class="card"><span class="tag">Deine Kirche</span><h3>Deine Tradition</h3><p>Christentum allgemein, Orthodoxe Tewahedo, ostkirchlich-orthodox, katholisch oder evangelisch, mit dem passenden Kanon und dem äthiopischen Kirchenkalender für die Tewahedo-Tradition.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Ein Blick hinein</h2>
+      <div class="shots">
+        <figure class="shot"><img loading="lazy" src="img/screenshot-1-home.jpg" width="540" height="1059" alt="Startseite"><figcaption>Startseite</figcaption></figure>
+        <figure class="shot"><img loading="lazy" src="img/screenshot-4-verse.jpg" width="540" height="1059" alt="Ein Vers mit seinen Verbindungen"><figcaption>Ein Vers und seine Verbindungen</figcaption></figure>
+        <figure class="shot"><img loading="lazy" src="img/screenshot-5-map.jpg" width="540" height="1059" alt="Verbindungskarte"><figcaption>Verbindungskarte</figcaption></figure>
+        <figure class="shot"><img loading="lazy" src="img/screenshot-2-answer.jpg" width="540" height="1059" alt="Eine Antwort mit Quellen"><figcaption>Eine Antwort mit Quellen</figcaption></figure>
+        <figure class="shot"><img loading="lazy" src="img/screenshot-3-evidence.jpg" width="540" height="1059" alt="Belege und Archäologie"><figcaption>Belege &amp; Archäologie</figcaption></figure>
+        <figure class="shot"><img loading="lazy" src="img/screenshot-6-memory.jpg" width="540" height="1059" alt="Merkverse"><figcaption>Merkverse</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Datenschutz von Anfang an</h2>
+      <ul class="checks">
+        <li>Kein Konto, keine Werbung, keine Analyse, kein Tracking.</li>
+        <li>Alles, was du anlegst, bleibt auf deinem Telefon, und die App funktioniert offline.</li>
+        <li>Das Internet wird nur genutzt, wenn du es auslöst: für ein optionales Paket oder um eine Quelle zu öffnen.</li>
+      </ul>
+      <p style="margin-top:18px"><a href="privacy.html#de">Datenschutzerklärung und Nutzungsbedingungen lesen</a></p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="honest">
+        <h3>Ehrlich gesagt</h3>
+        <p style="margin:.5rem 0 0">Die Antworten wurden sorgfältig zusammengestellt, aber noch von keinem Geistlichen einer Kirche geprüft und sind keine offizielle Lehre einer Kirche. Jede sagt das, und jeder Punkt zeigt die Verse und Quellen, auf denen er beruht. Lies sie bitte selbst und frage deinen Priester oder Pastor.</p>
+        <p class="muted" style="margin:.8rem 0 0">Enthaltene Bibeln: King James Version, World English Bible und Elberfelder 1905. Die Oberfläche gibt es auf Englisch, Deutsch und Tigrinya.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <a href="privacy.html#de">Datenschutz &amp; Bedingungen</a>
+      <a href="mailto:zemiketube@gmail.com">Kontakt</a>
+      <p>Scripture Links ist ein kostenloses, nicht kommerzielles Projekt.</p>
+    </div>
+  </footer>
+</div>
+
+</body>
+</html>
