@@ -14,7 +14,9 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  <base href="/scripture-links-packs/app/">
+  <!-- The app is served from different roots (GitHub Pages project path, Vercel root): use the folder this page is in. -->
+  <script>document.write('<base href="' + location.pathname.replace(/^(.*\/app\/).*$/, '$1') + '">');</script>
+  <!-- /app/ -->
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
