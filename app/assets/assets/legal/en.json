@@ -1,0 +1,41 @@
+{
+ "updated": "28 October 2026",
+ "sections": [
+  {
+   "title": "Terms of use",
+   "body": [
+    "Scripture Links is a free app for reading and studying the Bible. You may use it for personal study, teaching and conversation.",
+    "The answers, topics and connections were compiled with care from Holy Scripture and the sources named in them. They have not been reviewed by the clergy of any church and are not the official teaching of any church. Where an answer says it has not been reviewed, please read the verses and sources for yourself and ask your priest or pastor.",
+    "The app links to websites of others (for example the pages of the quoted sources and archive.org). Their content and terms are their own.",
+    "The app is provided as it is, without any warranty. To the extent the law allows, the developer is not liable for damage from its use. Liability for intent and gross negligence, and under mandatory law, remains unaffected.",
+    "These terms may change with new versions of the app; the date above shows the current version."
+   ]
+  },
+  {
+   "title": "Privacy",
+   "body": [
+    "The app has no account, no advertising, no analytics and no tracking. It does not collect or send personal data to the developer.",
+    "Everything you create (bookmarks, highlights, notes, memory verses, reading plans, saved answers and settings) is stored only on your phone. Backups are files that you save or share yourself.",
+    "The app uses the internet only when you ask for it: to download packs (from GitHub, which receives your IP address like any website; see GitHub’s privacy statement), and to open a source in your browser (the website you open receives your request).",
+    "Reminders are created on the phone; nothing is sent. “Report a problem” opens your share menu and sends only what you choose, through the app you choose.",
+    "If Android backup is turned on, Android may include the app’s data in your phone’s backup to your Google account, under Google’s terms.",
+    "Contact for privacy questions: {contact}"
+   ]
+  },
+  {
+   "title": "Sources and licences",
+   "body": [
+    "Bible texts: King James Version (1769): public domain in most countries; in the United Kingdom its printing is reserved to the Crown. World English Bible: public domain, from eBible.org (“World English Bible” is a trademark of eBible.org). Elberfelder Bibel (1905): public domain. 1 Enoch and Jubilees: R. H. Charles (1917), public domain. Bible databases via scrollmapper/bible_databases.",
+    "Tigrinya Bible: from the “Tigrigna Bible” PDF (2011/2013), also distributed by WongelAdvocate.com (Living Word Gospel Ministry). Copyright holder and permission to be confirmed.",
+    "Amharic Bible: International Bible Society (2001), now Biblica, decoded from their PDF edition. Copyright holder and permission to be confirmed.",
+    "Cross-references: OpenBible.info, CC BY. Hebrew and Greek words: Strong’s dictionaries (1890, 1894, public domain); JSON edition © Open Scriptures, CC BY-SA.",
+    "Church Fathers: public-domain translations (Ante-Nicene and Nicene and Post-Nicene Fathers, Catena Aurea, Pusey) via the HistoricalChristianFaith Commentaries Database and New Advent.",
+    "Creeds and catechisms: the Creed of 381 (NPNF II 14, 1900), the Longer Catechism of St Philaret (tr. Blackmore, 1845), An Explanation of the Baltimore Catechism (Kinkead, 1891), the Westminster Shorter Catechism (1647), the Augsburg Confession (1530): all public domain.",
+    "Short quotations from Wikipedia articles are used under CC BY-SA 4.0; each names its article and links to it. Ancient historians: Tacitus (tr. Church and Brodribb), Josephus (tr. Whiston), Pliny (tr. Melmoth): public domain.",
+    "Photos in “Evidence & archaeology”: Wikimedia Commons, each under the licence and with the author shown beneath it (public domain, CC0, CC BY or CC BY-SA), resized.",
+    "Topics, typed Old and New Testament links, reading plans, memory verse packs and the arrangement of the answers were compiled for this app.",
+    "Fonts: EB Garamond and Noto Sans Ethiopic, SIL Open Font License 1.1 (full texts under “Open-source licences”)."
+   ]
+  }
+ ]
+}

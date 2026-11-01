@@ -1,0 +1,41 @@
+{
+ "updated": "28. Oktober 2026",
+ "sections": [
+  {
+   "title": "Nutzungsbedingungen",
+   "body": [
+    "Scripture Links ist eine kostenlose App zum Lesen und Studieren der Bibel. Du darfst sie für dein persönliches Studium, für Unterricht und Gespräche nutzen.",
+    "Die Antworten, Themen und Verbindungen wurden sorgfältig aus der Heiligen Schrift und den jeweils genannten Quellen zusammengestellt. Sie wurden von keinem Geistlichen einer Kirche geprüft und sind keine offizielle Lehre einer Kirche. Wo eine Antwort als ungeprüft markiert ist, lies bitte die Verse und Quellen selbst und frage deinen Priester oder Pastor.",
+    "Die App verlinkt auf Websites Dritter (zum Beispiel die Seiten der zitierten Quellen und archive.org). Für deren Inhalte und Bedingungen sind die jeweiligen Anbieter verantwortlich.",
+    "Die App wird ohne Gewähr bereitgestellt. Soweit gesetzlich zulässig, haftet der Entwickler nicht für Schäden aus ihrer Nutzung. Die Haftung für Vorsatz und grobe Fahrlässigkeit sowie nach zwingendem Recht bleibt unberührt.",
+    "Diese Bedingungen können sich mit neuen Versionen der App ändern; das Datum oben zeigt die aktuelle Fassung."
+   ]
+  },
+  {
+   "title": "Datenschutz",
+   "body": [
+    "Die App hat kein Konto, keine Werbung, keine Analyse und kein Tracking. Sie erhebt keine personenbezogenen Daten und sendet nichts an den Entwickler.",
+    "Alles, was du anlegst (Lesezeichen, Markierungen, Notizen, Merkverse, Lesepläne, gespeicherte Antworten und Einstellungen), bleibt nur auf deinem Telefon. Sicherungen sind Dateien, die du selbst speicherst oder teilst.",
+    "Die App nutzt das Internet nur, wenn du es auslöst: zum Herunterladen von Paketen (von GitHub, das wie jede Website deine IP-Adresse erhält; siehe die Datenschutzerklärung von GitHub) und zum Öffnen einer Quelle im Browser (die geöffnete Website erhält deine Anfrage).",
+    "Erinnerungen werden auf dem Telefon erzeugt; nichts wird gesendet. „Problem melden“ öffnet das Teilen-Menü und sendet nur, was du auswählst, über die App, die du wählst.",
+    "Ist die Android-Sicherung eingeschaltet, kann Android die Daten der App in die Sicherung deines Telefons bei deinem Google-Konto aufnehmen, nach den Bedingungen von Google.",
+    "Kontakt für Datenschutzfragen: {contact}"
+   ]
+  },
+  {
+   "title": "Quellen und Lizenzen",
+   "body": [
+    "Bibeltexte: King James Version (1769): in den meisten Ländern gemeinfrei; im Vereinigten Königreich ist ihr Druck der Krone vorbehalten. World English Bible: gemeinfrei, von eBible.org („World English Bible“ ist eine Marke von eBible.org). Elberfelder Bibel (1905): gemeinfrei. 1. Henoch und Jubiläen: R. H. Charles (1917), gemeinfrei. Bibeldatenbanken über scrollmapper/bible_databases.",
+    "Tigrinya Bible: from the “Tigrigna Bible” PDF (2011/2013), also distributed by WongelAdvocate.com (Living Word Gospel Ministry). Copyright holder and permission to be confirmed.",
+    "Amharic Bible: International Bible Society (2001), now Biblica, decoded from their PDF edition. Copyright holder and permission to be confirmed.",
+    "Querverweise: OpenBible.info, CC BY. Hebräische und griechische Wörter: Strongs Wörterbücher (1890, 1894, gemeinfrei); JSON-Ausgabe © Open Scriptures, CC BY-SA.",
+    "Kirchenväter: gemeinfreie Übersetzungen (Ante-Nicene und Nicene and Post-Nicene Fathers, Catena Aurea, Pusey) über die HistoricalChristianFaith Commentaries Database und New Advent.",
+    "Glaubensbekenntnisse und Katechismen: das Bekenntnis von 381 (NPNF II 14, 1900), der Große Katechismus des hl. Philaret (übers. Blackmore, 1845), An Explanation of the Baltimore Catechism (Kinkead, 1891), der Westminster Kürzere Katechismus (1647), das Augsburger Bekenntnis (1530): alle gemeinfrei.",
+    "Kurze Zitate aus Wikipedia-Artikeln stehen unter CC BY-SA 4.0; jedes nennt seinen Artikel und verlinkt ihn. Antike Geschichtsschreiber: Tacitus (übers. Church und Brodribb), Josephus (übers. Whiston), Plinius (übers. Melmoth): gemeinfrei.",
+    "Fotos in „Belege & Archäologie“: Wikimedia Commons, jeweils unter der darunter genannten Lizenz und mit Urheber (gemeinfrei, CC0, CC BY oder CC BY-SA), verkleinert.",
+    "Themen, typisierte Verbindungen zwischen Altem und Neuem Testament, Lesepläne, Merkvers-Pakete und die Anordnung der Antworten wurden für diese App zusammengestellt.",
+    "Schriften: EB Garamond und Noto Sans Ethiopic, SIL Open Font License 1.1 (vollständige Texte unter „Open-Source-Lizenzen“)."
+   ]
+  }
+ ]
+}

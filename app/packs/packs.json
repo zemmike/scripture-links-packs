@@ -1,0 +1,65 @@
+{
+ "format": 1,
+ "packs": [
+  {
+   "id": "bible_elb1905",
+   "type": "bible",
+   "file": "bible_elb1905.db",
+   "version": 1,
+   "title": {
+    "en": "German Bible · Elberfelder 1905",
+    "de": "Deutsche Bibel · Elberfelder 1905",
+    "ti": "መጽሓፍ ቅዱስ ብጀርመንኛ · Elberfelder 1905"
+   },
+   "url": "bible_elb1905.db.gz",
+   "sha256": "c7f5c3ef8e2b3ddc53be087ac6e035e48cf1ecb09529ae88f407ab8bc6337c54",
+   "size": 3616055,
+   "installedSize": 7839744
+  },
+  {
+   "id": "bible_web",
+   "type": "bible",
+   "file": "bible_web.db",
+   "version": 1,
+   "title": {
+    "en": "English Bible · World English Bible (modern)",
+    "de": "Englische Bibel · World English Bible (modern)",
+    "ti": "መጽሓፍ ቅዱስ ብእንግሊዝኛ · World English Bible"
+   },
+   "url": "bible_web.db.gz",
+   "sha256": "010c0c628790391984e872d0b37e1e182f88d46941a5f852d657acce974891e9",
+   "size": 3875241,
+   "installedSize": 8474624
+  },
+  {
+   "id": "strongs",
+   "type": "words",
+   "file": "strongs.db",
+   "version": 1,
+   "title": {
+    "en": "Hebrew and Greek words (Strong’s)",
+    "de": "Hebräische und griechische Wörter (Strong)",
+    "ti": "ቃላት እብራይስጢን ግሪኽን (Strong)"
+   },
+   "url": "strongs.db.gz",
+   "sha256": "ab4dc9168326d6b9c3c2986d44a8100553e7e11f226e324bdd1151836c0a7ab9",
+   "size": 6902431,
+   "installedSize": 17944576
+  },
+  {
+   "id": "fathers",
+   "type": "fathers",
+   "file": "fathers.db",
+   "version": 1,
+   "title": {
+    "en": "Church Fathers (English)",
+    "de": "Kirchenväter (Englisch)",
+    "ti": "ኣበው ቤተ ክርስቲያን (እንግሊዝኛ)"
+   },
+   "url": "fathers.db.gz",
+   "sha256": "b356bf997bdb6588ec08bed5ac1464e56433bd7c3cc1e4e8a2cb5b108e68580c",
+   "size": 8633895,
+   "installedSize": 29327360
+  }
+ ]
+}
