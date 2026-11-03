@@ -337,5 +337,19 @@
   "about_legal_tile": "Terms, privacy, sources and licences",
   "legal_updated": "Last updated: {date}",
   "open_source_licences": "Open-source licences",
-  "legal_contact_missing": "(to be added before the app is published)"
+  "legal_contact_missing": "(to be added before the app is published)",
+  "ask_title": "Ask the sources",
+  "ask_hint": "Ask a question, e.g. Who is the Holy Spirit?",
+  "ask_setup": "Add your own AI key to ask questions. Answers are written only from this app's verses, answers and Church Fathers.",
+  "ai_settings": "AI assistant",
+  "ai_provider": "AI provider",
+  "ai_key": "API key",
+  "ai_model": "Model (optional)",
+  "ai_remove": "Remove key",
+  "ai_note": "Uses your own account with the provider, so their usage fees apply to you. The key is stored only on this device and is never part of backups. Each question sends the question and the matching sources from this app, nothing else, straight to the provider you chose. In a browser, anyone who can use this browser profile can read the saved key, so use a key with a spending limit.",
+  "ai_disclaimer": "AI can make mistakes and the answers are not reviewed by clergy. Check the numbered sources before relying on an answer.",
+  "ai_sources": "Sources used",
+  "ai_err": "The question could not be answered.",
+  "ai_err_key": "The provider did not accept the key. Check it in the AI settings.",
+  "ai_err_limit": "The provider says you have used up your limit. Try again later."
 }

@@ -337,5 +337,19 @@
   "about_legal_tile": "Bedingungen, Datenschutz, Quellen und Lizenzen",
   "legal_updated": "Stand: {date}",
   "open_source_licences": "Open-Source-Lizenzen",
-  "legal_contact_missing": "(wird vor der Veröffentlichung ergänzt)"
+  "legal_contact_missing": "(wird vor der Veröffentlichung ergänzt)",
+  "ask_title": "Die Quellen fragen",
+  "ask_hint": "Stelle eine Frage, z. B. Wer ist der Heilige Geist?",
+  "ask_setup": "Füge deinen eigenen KI-Schlüssel hinzu, um Fragen zu stellen. Die Antworten stützen sich nur auf die Verse, Antworten und Kirchenväter dieser App.",
+  "ai_settings": "KI-Assistent",
+  "ai_provider": "KI-Anbieter",
+  "ai_key": "API-Schlüssel",
+  "ai_model": "Modell (optional)",
+  "ai_remove": "Schlüssel entfernen",
+  "ai_note": "Nutzt dein eigenes Konto beim Anbieter, es fallen also dessen Nutzungsgebühren bei dir an. Der Schlüssel wird nur auf diesem Gerät gespeichert und nie in Sicherungen aufgenommen. Pro Frage gehen nur die Frage und die passenden Quellen aus dieser App direkt an den gewählten Anbieter. Im Browser kann jeder, der dieses Browserprofil nutzt, den Schlüssel lesen; nimm daher einen Schlüssel mit Ausgabenlimit.",
+  "ai_disclaimer": "KI kann sich irren, und die Antworten wurden nicht von Geistlichen geprüft. Prüfe die nummerierten Quellen, bevor du dich auf eine Antwort verlässt.",
+  "ai_sources": "Verwendete Quellen",
+  "ai_err": "Die Frage konnte nicht beantwortet werden.",
+  "ai_err_key": "Der Anbieter hat den Schlüssel nicht akzeptiert. Prüfe ihn in den KI-Einstellungen.",
+  "ai_err_limit": "Der Anbieter meldet, dass dein Limit aufgebraucht ist. Versuche es später erneut."
 }
